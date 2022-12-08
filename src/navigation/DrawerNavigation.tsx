@@ -1,6 +1,6 @@
 
 import {createDrawerNavigator} from '@react-navigation/drawer'
-import Perfil from '../components/PerfilComponent';
+import Perfil from '../components/Perfil';
 
 const Drawer=createDrawerNavigator();
 

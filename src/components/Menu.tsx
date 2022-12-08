@@ -7,7 +7,7 @@ import firebaseApp from '../../firebase';
 import { getAuth, signOut } from 'firebase/auth'
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import { Header as HeaderRNE, HeaderProps, Icon } from '@rneui/themed';
-import Perfil from './PerfilComponent';
+import Perfil from './Perfil';
 
 
 const auth = getAuth(firebaseApp)

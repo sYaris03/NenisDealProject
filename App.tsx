@@ -1,13 +1,13 @@
 import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
-import InicioSesionComponent from './src/components/InicioSesionComponent'
+import InicioSesionComponent from './src/components/InicioSesion'
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import { RootStackParam } from './src/components/NavConfig';
-import CrearCuentaComponent from './src/components/CrearCuentaComponent';
-import PrincipalComponent from './src/components/PrincipalComponent';
-import MenuComponent from './src/components/MenuComponent';
-import PerfilComponent from './src/components/PerfilComponent';
+import CrearCuentaComponent from './src/components/CrearCuenta';
+import PrincipalComponent from './src/components/Principal';
+import MenuComponent from './src/components/Menu';
+import PerfilComponent from './src/components/Perfil';
 
 const Stack = createNativeStackNavigator<RootStackParam>();
 const App = () => {
